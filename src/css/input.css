@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family:'calibri' ;
+        src: url('../fonts/CALIBRI/calibri-regular.ttf') format('tryetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+@layer base{
+    @font-face {
+        font-family:'arial' ;
+        src: url('../fonts/ARIAL/arial.ttf') format('tryetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+}

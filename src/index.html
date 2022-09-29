@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/logo_02.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>AeA Ficha</title>
+    <script src="./index.js"></script>
+</head>
+<body class=" flex flex-col items-center justify-center font-calibri_font mx-auto ">
+    <div class=" mt-10 ">
+        <img src="./image/ficha_logo.jpg" class=" w-32 mx-auto" alt="">
+        <div class="text-center  mt-1">
+            <h1 class=" uppercase font-bold tracking-wide text-2xl">ALLAN VITÓRIA DE SOUZA - ME</h1>
+            <p class=" font-bold font-arial_font text-[15px] tracking-wider ">PROPOSTA DE COMPRA E VENDA</p>
+        </div>
+
+        <form class="w-full mx-auto font-bold h-screen mt-5 mb-[170px]" id="form">
+            <div class="flex ml-[18rem]">
+                <p class=" font-bold" >(ANEXO 1)</p>
+            <div class="flex ml-14 text-[14px] ">
+                <h1 class="text-white bg-black px-7">Corretor(a):</h1>
+                <select class=" text-start border border-black appearance-none bg-white outline-none font-medium px-10">
+                    <option value=""></option>
+                    <option value="Corretor1">Corretor1</option>
+                    <option value="Corretor2">Corretor2</option>
+                    <option value="Corretor3">Corretor3</option>
+                </select>
+            </div>
+            </div>
+            <div class="w-full text-white bg-black text-center uppercase text-xl border  border-black ">dados do(a) cliente</div>
+
+            <div class=" flex mx-auto w-full">
+                <label class=" border border-black"><p class="w-[190px]  text-xl">E-mail:</p></label>
+                <input class="font-medium outline-none w-full text-[20px] border border-black" type="email">
+            </div>
+            <div class=" flex mx-auto w-full">
+                <label class=" border border-black"><p class="w-[190px]  text-xl">Nome Completo:</p></label>
+                <input class="font-medium outline-none w-full text-[20px] border border-black" type="text">
+            </div>
+          
+          <!-- <input type="button" value="Gerar Pdf" onclick="pdf()"> -->
+          
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">RG:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="number">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">CPF:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="number">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Órgão Emissor:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Naturalidade:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="text">
+                </div>
+            </div>
+
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Profissão:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Estado Civil:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="text">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Telefone 1:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="number">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Telefone 2:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="number">
+                </div>
+            </div>
+            <div class="w-full text-white bg-black text-center  text-xl border  border-black ">endereço do(a) cliente</div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Endereço:</p></label>
+                    <input class=" font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Bairro:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="text">
+                </div>
+            </div>
+
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Cidade:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Cep:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="number">
+                </div>
+            </div>
+
+            <div class="w-full text-white bg-black text-center  text-xl border  border-black ">referências pessoais</div>
+
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Nome Completo:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">parentesco:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="text">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Telefone 1:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="number">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Telefone 2:</p></label>
+                    <input class=" font-medium outline-none w-full text-[20px] border border-black appearance-none" type="number">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Nome Completo:</p></label>
+                    <input class=" font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="text">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">parentesco:</p></label>
+                    <input class="font-medium outline-none w-full text-[20px] border border-black appearance-none" type="text">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Telefone 1:</p></label>
+                    <input class="font-medium outline-none w-[15rem] text-[20px] border border-black appearance-none" type="number">
+                </div>
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Telefone 2:</p></label>
+                    <input class=" font-medium outline-none w-full text-[20px] border border-black appearance-none" type="number">
+                </div>
+            </div>
+            <div class="w-full p-3 bg-black text-center border  border-black "></div>
+
+
+
+            <div class="flex">
+                <div class=" flex mx-auto ">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Metragem Total:</p></label>
+                    <input class=" font-medium outline-none w-[4rem] text-[20px] border border-black 
+                    appearance-none text-center border-r-0" value=" m2" type="number">
+
+                
+                    <p class=" border-black border-y-[1px] pt-1 pr-3">M<sup>2</sup></p>
+                    
+                    
+                </div>
+
+                
+                <div class=" flex pl-6 border border-black border-x-0">
+                    <label class=" border border-black"><p class="w-[70px]  text-xl">Quadra:</p></label>
+                    <input class=" font-medium outline-none w-[3rem] text-[20px] border border-black appearance-none text-center" type="text">
+                </div>
+                <div class="flex mx-auto w-full ">
+                    <label class=" border border-black"><p class="w-[130px]  text-xl">Lote:</p></label>
+                    <input class=" font-medium outline-none w-full text-[20px] border border-black appearance-none text-center" type="number">
+                </div>
+            </div>
+
+
+            <div class="flex">
+                <div class=" flex mx-auto w-full">
+                    <label class=" border border-black"><p class="w-[190px]  text-xl">Observação:</p></label>
+                    <div class=" grid grid-cols-4 w-full pl-2 mb-1 text-left font-medium ">
+
+                        <label >FR</label>
+                        <input class="border-b-2 ml-[-20px]  text-center border-black w-10 outline-none" type="number">
+                        <label>FD</label>
+                       
+                        <input class="border-b-2 ml-[-20px]  text-center border-black w-10 outline-none" type="number">
+                        <label>LD.E</label>
+                        <input class="border-b-2 ml-[-20px]  text-center border-black w-10 outline-none" type="number">
+                        <label>LD.D</label>
+                        <input class="border-b-2 ml-[-20px]  text-center border-black w-10 outline-none" type="number">
+                    </div>
+                
+                </div>
+
+
+
+                <div class=" flex mx-auto ">
+                    <label class=" border border-black "><p class="w-[130px] leading-5 break-words text-xl ">Empreendimento:</p></label>
+
+                    <select class="outline-none w-[13rem] text-[18px] text-center border border-black appearance-none font-medium">
+                        <option value=""></option>
+                        <option value="Corretor1">Corretor1</option>
+                        <option value="Corretor2">Corretor2</option>
+                        <option value="Corretor3">Corretor3</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="w-full p-3 bg-black text-center border  border-black "></div>
+
+
+            <div class=" flex mx-auto border border-black ">
+                <label class=" border-r-[1px] border-black"><p class="w-[190px]  text-[20px] ">Forma de Pagamento:</p></label>
+                <div class="ml-4 text-center flex items-center">
+                    <input type='radio' class="ml-6 w-4  h-4" name="pagamento" value="vista" id="vista" />
+                <label class="ml-1 text-[17px]" for="vista">à vista</label>
+
+                <input type='radio' class="ml-6 w-4  h-4" name="pagamento" value="parcelado" id="parcelado"/>
+                <label class="ml-1 text-[17px]" for="parcelado">parcelado</label>
+
+                <input type='radio' class="ml-6 w-4  h-4" name="pagamento" value="entrada" id="entrada"/>
+                <label class="ml-1 text-[17px] " for="entrada">entrada maior, com parcelamento</label>
+                </div>
+            </div>
+
+
+
+            <div class=" flex mx-auto border border-black ">
+                <label class=" border-r-[1px] border-black "><p class="w-[190px]  text-[20px] ">Parcelamento:</p></label>
+
+                <select class="outline-none w-full text-[18px] text-center font-medium appearance-none">
+                    <option value=""></option>
+                    <option value="12x">12x</option>
+                    <option value="24x">24x</option>
+                    <option value="36x">36x</option>
+                    <option value="48x">48x</option>
+                    <option value="60x">60x</option>
+                    <option value="80x">80x</option>
+                    <option value="100x">100x</option>
+                    <option value="120px">120px</option>
+                    <option value="140px">140px</option>
+                    <option value="200x">200x</option>
+                </select>
+                
+            </div>
+
+
+            <div>
+                
+            </div>
+            <div class=" flex mx-auto border border-black ">
+                <label class=" border-r-[1px] border-black "><p class="w-[190px]  text-[20px] ">Valor das Parcelas:</p></label>
+                <p class="text-center text-[20px] font-medium">R$</p>
+                <input class="pl-1 outline-none w-auto text-[20px] font-medium appearance-none" type="number">
+            </div>
+
+            <div class=" flex mx-auto border border-black ">
+                <label class=" border-r-[1px] border-black "><p class="w-[190px]  text-[20px] ">Valor total parcelado:</p></label>
+                 <p class="text-center text-[20px] font-medium w-auto">R$</p>
+                 
+               <input class="pl-1 outline-none w-[8rem] text-[20px] font-medium appearance-none border-black border-r-[1px]" type="number"> 
+
+                 <label class=" border-r-[1px] border-black "><p class=" w-[190px] text-[20px] ml-2 ">Valor Da Entrada:</p></label>
+                
+                <p class="text-center text-[20px] font-medium">R$</p>
+                
+                <input class="pl-1 outline-none w-auto text-[20px] font-medium appearance-none" type="number"> 
+            </div>
+
+
+
+
+
+            <div class=" flex mx-auto border border-black ">
+                <label class=" border-r-[1px] border-black "><p class="w-[190px]  text-[20px] ">Valor total do contrato:</p></label>
+                 <p class=" mt-[14px] text-[20px] font-medium w-auto">R$</p>
+                 
+               <input class="pl-1 outline-none w-[8rem] text-[20px] font-medium appearance-none border-black border-r-[1px]" type="number"> 
+
+                 <label class=" border-r-[1px] border-black "><p class=" w-[190px] text-[20px] ml-2 ">Dia de Vencimento Dos Boletos:</p></label>
+                
+
+                 <input type='date' id='data' name='data' class="outline-none text-[20px] font-medium appearance-non text-center w-full">
+            </div>
+        </form>
+        <div class="text-center">
+            <h1 class=" font-bold text-[20px]">Declaro está ciente e concordar com as informações descritas nesta proposta.</h1>
+            <p class=" font-semibold text-[15px]">Obs.: Necessária cópia dos documentos anexado ao formulário (RG, CPF E comprovante de residência).</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
